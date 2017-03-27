@@ -10,7 +10,6 @@ import java.lang.reflect.Proxy;
  * LiteRouter for Android
  *
  * @author wan7451
- * @data 2017/3/24
  */
 
 public final class LiteRouter {
@@ -27,8 +26,8 @@ public final class LiteRouter {
      *
      * @param service router class
      * @param context from context
-     * @param <T>
-     * @return
+     * @param <T> classtype
+     * @return class
      */
     public <T> T create(final Class<T> service, final Context context) {
 

@@ -4,7 +4,6 @@ package com.wan7451.literoute;
  * 拦截器
  *
  * @author wan7451
- * @data 2017/3/24
  */
 
 public interface Interceptor {

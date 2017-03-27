@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -27,3 +27,14 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     testCompile 'junit:junit:4.12'
 }
+
+publish {
+    userOrg = 'wan410689330'//bintray.com用户名
+    groupId = 'com.wan7451'//jcenter上的路径
+    artifactId = 'literouter'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = 'android lite router lib'//描述，不重要
+    website = 'https://github.com/Wan7451/LiteRoute'//网站，最好有，不重要
+}
+
+//./gradlew clean build bintrayUpload  -PbintrayUser=wan410689330   -PbintrayKey=f6f9b0e2d22d545b5ff8b4b7d105e6ec072decd7  -PdryRun=false

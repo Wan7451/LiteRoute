@@ -9,7 +9,6 @@ import java.lang.annotation.Target;
  * Intent 的请求码
  * RequestCode
  * @author  wan7451
- * @data 2017/3/24
  */
 
 @Target(ElementType.METHOD)

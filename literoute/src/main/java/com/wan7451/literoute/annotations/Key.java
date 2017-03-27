@@ -9,7 +9,6 @@ import java.lang.annotation.Target;
  * Intent 传值
  * intent.put(key,value)
  * @author  wan7451
- * @data 2017/3/24
  */
 
 @Target(ElementType.PARAMETER)

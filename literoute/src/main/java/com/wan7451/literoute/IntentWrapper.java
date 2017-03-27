@@ -29,7 +29,6 @@ import java.util.ArrayList;
  * 对Intent进一步封装
  *
  * @author wan7451
- * @data 2017/3/24
  */
 
 public class IntentWrapper {

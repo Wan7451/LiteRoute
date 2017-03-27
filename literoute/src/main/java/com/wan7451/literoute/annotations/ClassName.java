@@ -10,7 +10,6 @@ import java.lang.annotation.Target;
  * 声明要跳转的组件
  *
  * @author wan7451
- * @data 2017/3/24
  */
 
 @Target(ElementType.METHOD)
