@@ -58,14 +58,14 @@ intentWrapper.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NE
 intentWrapper.start();
 ```
 
-### 添加依赖
+## 添加依赖
 
 ```
 compile 'com.wan7451:literouter:1.0.0'
 ```
 
 
-### 主要技术：
+## 主要技术：
 1. Java注解
 2. 动态代理
 
